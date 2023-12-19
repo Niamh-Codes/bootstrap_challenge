@@ -1,6 +1,28 @@
-.cardContainer {
-    margin-top: 20px;
+body {
+    background-color: grey;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+    flex-direction: column;
+    min-height: auto;
+}
+.card{
+    display: flex;
+    justify-content: space-evenly;
+}
+h1 {
+    text-align: center;
+    color: pink;
+    font-size: 40px;
+    padding: 10;
+}
+.customNav {
+    width: 100%;
+    background-color: transparent !important;
+    background-size: cover;
+    z-index: 10;
+    justify-content: center;
   }
-  .card {
-    margin: 0 auto;
+  .nav-item {
+    margin: 0px 15px;
   }
+  

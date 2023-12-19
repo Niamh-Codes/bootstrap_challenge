@@ -15,6 +15,7 @@ h1 {
     font-size: 40px;
     padding: 10;
 }
+
 .customNav {
     width: 100%;
     background-color: transparent !important;
@@ -25,4 +26,12 @@ h1 {
   .nav-item {
     margin: 0px 15px;
   }
-  
+
+.customTitle a{
+    color: aliceblue;
+}
+footer{
+    text-align: center;
+    justify-content: center;
+    color: pink;
+} 
